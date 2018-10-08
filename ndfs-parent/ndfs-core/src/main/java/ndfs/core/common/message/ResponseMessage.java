@@ -1,15 +1,7 @@
 
-/*
- * Copyright (c) 2016 Sohu. All Rights Reserved
- */
+
 package ndfs.core.common.message;
-/**
- * <p>
- *     Description: 把name server发给 block server的消息称为response message
- * </p>
- * @author yibingsong
- * @Date 2016年7月20日 上午10:08:05
- */
+
 public abstract class ResponseMessage extends CommonMessage{
 
     

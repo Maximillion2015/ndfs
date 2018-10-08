@@ -1,17 +1,8 @@
 
-/*
- * Copyright (c) 2016 Sohu. All Rights Reserved
- */
+
 package ndfs.core.common;
 
-/**
- * <p>
- * Description: 状态码枚举，包括状态码和对应的描述
- * </p>
- * 
- * @author yibingsong
- * @Date 2016年7月18日 下午3:42:11
- */
+
 public enum StatusCodeEnum {
     
     

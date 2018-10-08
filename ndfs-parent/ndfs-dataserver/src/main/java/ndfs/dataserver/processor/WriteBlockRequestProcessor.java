@@ -1,7 +1,5 @@
 
-/*
- * Copyright (c) 2016 Sohu. All Rights Reserved
- */
+
 package ndfs.dataserver.processor;
 
 import java.io.RandomAccessFile;
@@ -21,13 +19,7 @@ import ndfs.dataserver.UsedBlockInfoCache;
 import ndfs.dataserver.WritableBlockInfoCache;
 import ndfs.dataserver.model.BlockInfo;
 
-/**
- * <p>
- *     Description: master处理写入文件的请求，暂时只向master写入
- * </p>
- * @author yibingsong
- * @Date 2016年8月1日 下午1:31:21
- */
+
 @Processor(msgType = MsgTypeEnum.WRITE_BLOCK_REQUEST)
 public class WriteBlockRequestProcessor extends RequestMessageProcessor<WriteBlockRequestMessage, ResponseMessage>{
 

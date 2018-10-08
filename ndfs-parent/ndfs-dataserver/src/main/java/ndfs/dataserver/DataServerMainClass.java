@@ -1,7 +1,5 @@
 
-/*
- * Copyright (c) 2016 Sohu. All Rights Reserved
- */
+
 package ndfs.dataserver;
 
 import static ndfs.core.common.BootLoader.getProperties;
@@ -21,14 +19,7 @@ import ndfs.core.utils.Logger;
 import ndfs.data.netty.client.NettyClientHandler;
 import ndfs.data.netty.server.NettyServerHandler;
 
-/**
- * <p>
- * Description:
- * </p>
- * 
- * @author yibingsong
- * @Date 2016年7月26日 下午1:24:56
- */
+
 public class DataServerMainClass {
     private static final String keyForDataserverPort = "dataserver.port";
     private static final String keyForNameserverIp = "nameserver.ip";

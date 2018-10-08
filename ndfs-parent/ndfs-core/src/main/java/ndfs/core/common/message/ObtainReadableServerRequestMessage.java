@@ -1,15 +1,7 @@
 
-/*
- * Copyright (c) 2016 Sohu. All Rights Reserved
- */
+
 package ndfs.core.common.message;
-/**
- * <p>
- *     Description: 根据block id,获取一个可读的server
- * </p>
- * @author yibingsong
- * @Date 2016年8月1日 下午4:55:48
- */
+
 public class ObtainReadableServerRequestMessage extends RequestMessage{
     public long getBlockId() {
     

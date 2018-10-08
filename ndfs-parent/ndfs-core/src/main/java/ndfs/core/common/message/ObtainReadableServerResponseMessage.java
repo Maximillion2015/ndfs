@@ -1,17 +1,8 @@
 
-/*
- * Copyright (c) 2016 Sohu. All Rights Reserved
- */
+
 package ndfs.core.common.message;
 
-/**
- * <p>
- * Description:读取文件时，返回给client的server信息
- * </p>
- * 
- * @author yibingsong
- * @Date 2016年8月2日 上午9:44:32
- */
+
 public class ObtainReadableServerResponseMessage extends ResponseMessage {
 
     @Override

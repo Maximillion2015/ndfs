@@ -1,4 +1,4 @@
-#分布式图片存储系统（demo版）
+#分布式存储系统（demo版）
 
 
 ##服务端启动流程：
@@ -21,4 +21,3 @@
 
 ![image](https://github.com/songyibing/ndfs/blob/master/im.png)
 
-参考淘宝图片文件存储系统。http://code.taobao.org/p/tfs/wiki/intro/

@@ -1,7 +1,5 @@
 
-/*
- * Copyright (c) 2016 Sohu. All Rights Reserved
- */
+
 package ndfs.data.netty.server;
 
 import io.netty.channel.ChannelHandlerContext;
@@ -15,14 +13,7 @@ import ndfs.core.common.message.CommonMessage;
 import ndfs.core.utils.LogUtils;
 import ndfs.core.utils.Logger;
 
-/**
- * <p>
- * Description:
- * </p>
- * 
- * @author yibingsong
- * @Date 2016年7月19日 上午11:31:57
- */
+
 public class NettyServerHandler extends SimpleChannelInboundHandler<CommonMessage> {
     private static final Logger logger = LogUtils.getLogger(NettyServerHandler.class);
 

@@ -1,18 +1,10 @@
 
-/*
- * Copyright (c) 2016 Sohu. All Rights Reserved
- */
+
 package ndfs.core.common.message;
 
 import java.util.List;
 
-/**
- * <p>
- *     Description: name server 向data master server 发送创建block的消息
- * </p>
- * @author yibingsong
- * @Date 2016年7月26日 上午11:45:38
- */
+
 public class CreateBlockMasterResponseMessage extends ResponseMessage{
     
     private long blockCount;

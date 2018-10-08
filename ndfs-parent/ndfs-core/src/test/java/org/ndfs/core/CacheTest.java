@@ -8,13 +8,7 @@ import junit.framework.TestCase;
 import ndfs.core.cache.CacheBuilder;
 import ndfs.core.cache.LocalCache;
 
-/**
- * <p>
- *     Description: 测试缓存的两种实现：concurrentHashMap和google guava
- * </p>
- * @author yibingsong
- * @Date 2016年7月21日 下午12:42:28
- */
+
 public class CacheTest extends TestCase {
     public void testCache() {
         LocalCache<Integer, String> guavaCache = CacheBuilder.newBuilder

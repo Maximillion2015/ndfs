@@ -1,7 +1,5 @@
 
-/*
- * Copyright (c) 2016 Sohu. All Rights Reserved
- */
+
 package ndfs.nameserver.processor;
 
 import java.net.InetSocketAddress;
@@ -18,14 +16,7 @@ import ndfs.core.utils.Logger;
 import ndfs.nameserver.cache.BlockManager;
 import ndfs.nameserver.cache.ServerManager;
 
-/**
- * <p>
- * Description: 登录的请求处理器
- * </p>
- * 
- * @author yibingsong
- * @Date 2016年7月20日 下午1:27:03
- */
+
 @Processor(msgType = MsgTypeEnum.LOGIN_REQUEST)
 public class LoginRequestMessageProcessor extends RequestMessageProcessor<LoginRequestMessage, LoginResponseMessage> {
     private static final Logger logger = LogUtils.getLogger(LoginRequestMessageProcessor.class);

@@ -1,7 +1,5 @@
 
-/*
- * Copyright (c) 2016 Sohu. All Rights Reserved
- */
+
 package ndfs.dataserver.processor;
 
 import io.netty.channel.ChannelHandlerContext;
@@ -14,14 +12,7 @@ import ndfs.core.common.message.ResponseMessage;
 import ndfs.core.utils.LogUtils;
 import ndfs.core.utils.Logger;
 
-/**
- * <p>
- * Description: 消息处理器
- * </p>
- * 
- * @author yibingsong
- * @Date 2016年7月20日 上午11:11:29
- */
+
 public abstract class ResponseMessageProcessor<S extends ResponseMessage, Q extends RequestMessage>
         implements MessageProcessor<S> {
 

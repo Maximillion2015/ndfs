@@ -1,7 +1,5 @@
 
-/*
- * Copyright (c) 2016 Sohu. All Rights Reserved
- */
+
 package ndfs.core.utils;
 
 import java.lang.reflect.Method;
@@ -12,14 +10,7 @@ import org.apache.commons.lang3.builder.ToStringStyle;
 
 import com.google.common.base.MoreObjects;
 
-/**
- * <p>
- * Description: 包装后的基于Log4j的日志工具
- * </p>
- * 
- * @author yibingsong
- * @Date 2016年7月19日 下午2:42:03
- */
+
 public class LogUtils {
     private static final ConcurrentHashMap<String, Boolean> isDeclaredToStringMap = new ConcurrentHashMap<String, Boolean>();
     private static final String toStringMethodName = "toString";

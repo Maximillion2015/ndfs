@@ -1,7 +1,5 @@
 
-/*
- * Copyright (c) 2016 Sohu. All Rights Reserved
- */
+
 package ndfs.nameserver.processor;
 
 import io.netty.channel.ChannelHandlerContext;
@@ -15,14 +13,7 @@ import ndfs.nameserver.cache.BlockManager;
 import ndfs.nameserver.core.Global;
 import ndfs.nameserver.core.Statistics;
 
-/**
- * <p>
- * Description: 【添加块】操作结果的消息处理器
- * </p>
- * 
- * @author yibingsong
- * @Date 2016年7月28日 上午11:20:00
- */
+
 @Processor(msgType = MsgTypeEnum.CREATE_BLOCK_RESULT_MASTER_REQUEST)
 public class CreateBlockMasterResponseMessageProcessor
         extends RequestMessageProcessor<CreateBlockMasterResultRequestMessage, ResponseMessage> {

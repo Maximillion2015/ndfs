@@ -1,20 +1,11 @@
 
-/*
- * Copyright (c) 2016 Sohu. All Rights Reserved
- */
+
 package ndfs.core.common.message;
 
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * <p>
- * Description: master创建块的结果，需要发送给name server
- * </p>
- * 
- * @author yibingsong
- * @Date 2016年7月28日 上午11:13:57
- */
+
 public class CreateBlockMasterResultRequestMessage extends RequestMessage {
     private long sessionId;
     private boolean success;

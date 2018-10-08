@@ -1,7 +1,5 @@
 
-/*
- * Copyright (c) 2016 Sohu. All Rights Reserved
- */
+
 package ndfs.nameserver.cache;
 
 import java.util.ArrayList;
@@ -16,14 +14,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import ndfs.core.common.ToString;
 import ndfs.core.common.message.LoginRequestMessage;
 
-/**
- * <p>
- * Description:
- * </p>
- * 
- * @author yibingsong
- * @Date 2016年7月27日 上午10:05:45
- */
+
 public class ServerManager {
     private static Map<Integer, ServerInfo> serverInfoMap = new ConcurrentHashMap<Integer, ServerInfo>();
 
@@ -37,15 +28,7 @@ public class ServerManager {
         return serverInfoMap.size();
     }
 
-    /**
-     * 
-    * @Title: getMaxNFreeBlockCount 
-    * @Description:  对server列表按照剩余空闲block数进行排序，找到n个block数最多的server,只保留大于1的server。
-    * @param n
-    * @return  
-    * @return List<ServerInfo>
-    * @throws
-     */
+
     public static List<ServerInfo> getMaxNFreeBlockCount(int n) {
         List<ServerInfo> serverInfoList = new ArrayList<ServerInfo>();
         for (Map.Entry<Integer, ServerInfo> entry : serverInfoMap.entrySet()) {
@@ -68,15 +51,7 @@ public class ServerManager {
         System.out.println(serverInfoMap);
     }
     
-    /**
-     * 
-    * @Title: getServerIp 
-    * @Description:  根据server id获取ip地址
-    * @param serverId
-    * @return  
-    * @return String
-    * @throws
-     */
+
     public static String getServerIp(int serverId) {
         return serverInfoMap.get(Integer.valueOf(serverId)).getIp();
     }

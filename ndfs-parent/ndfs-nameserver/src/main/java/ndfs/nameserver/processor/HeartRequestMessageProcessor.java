@@ -1,7 +1,5 @@
 
-/*
- * Copyright (c) 2016 Sohu. All Rights Reserved
- */
+
 package ndfs.nameserver.processor;
 
 import io.netty.channel.ChannelHandlerContext;
@@ -15,14 +13,7 @@ import ndfs.core.common.message.MsgTypeEnum;
 import ndfs.core.utils.LogUtils;
 import ndfs.core.utils.Logger;
 
-/**
- * <p>
- * Description:
- * </p>
- * 
- * @author yibingsong
- * @Date 2016年7月20日 下午1:27:03
- */
+
 @Processor(msgType = MsgTypeEnum.HEARTBEAT_REQUST)
 public class HeartRequestMessageProcessor extends RequestMessageProcessor<HeartRequestMessage, HeartResponseMessage> {
     private static final Logger logger = LogUtils.getLogger(HeartRequestMessageProcessor.class);

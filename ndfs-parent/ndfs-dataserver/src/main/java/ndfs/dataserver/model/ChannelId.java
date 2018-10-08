@@ -1,7 +1,5 @@
 
-/*
- * Copyright (c) 2016 Sohu. All Rights Reserved
- */
+
 package ndfs.dataserver.model;
 
 import java.io.Serializable;
@@ -12,13 +10,7 @@ import ndfs.core.cache.exception.CommonException;
 import ndfs.core.common.BootLoader;
 import ndfs.core.common.StatusCodeEnum;
 
-/**
- * <p>
- *     Description: 长连接Id
- * </p>
- * @author yibingsong
- * @Date 2016年7月19日 下午1:56:46
- */
+
 public class ChannelId implements Serializable {
     
     

@@ -1,7 +1,5 @@
 
-/*
- * Copyright (c) 2016 Sohu. All Rights Reserved
- */
+
 package ndfs.dataserver;
 
 import java.io.ObjectOutputStream.PutField;
@@ -9,14 +7,7 @@ import java.util.concurrent.ConcurrentHashMap;
 
 import ndfs.dataserver.SessionCache.SessionInfo;
 
-/**
- * <p>
- * Description: 直接使用concurrentHashMap
- * </p>
- * 
- * @author yibingsong
- * @Date 2016年7月27日 下午5:54:01
- */
+
 public class SessionCache extends ConcurrentHashMap<Long, SessionInfo> {
 
     

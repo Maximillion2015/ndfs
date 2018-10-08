@@ -1,7 +1,5 @@
 
-/*
- * Copyright (c) 2016 Sohu. All Rights Reserved
- */
+
 package ndfs.dataserver.processor;
 
 import java.io.File;
@@ -30,14 +28,7 @@ import ndfs.dataserver.UsedBlockInfoCache;
 import ndfs.dataserver.WritableBlockInfoCache;
 import ndfs.dataserver.model.BlockInfo;
 
-/**
- * <p>
- * Description: 作为主data server，创建块的处理器
- * </p>
- * 
- * @author yibingsong
- * @Date 2016年7月27日 下午4:00:01
- */
+
 @Processor(msgType = MsgTypeEnum.CREATE_BLOCK_MASTER_RESPONSE)
 public class CreateBlockMasterResponseProcessor
         extends ResponseMessageProcessor<CreateBlockMasterResponseMessage, CreateBlockMasterResultRequestMessage> {
@@ -51,7 +42,7 @@ public class CreateBlockMasterResponseProcessor
         long blockCount = responseMessage.getBlockCount();
         long blockNumberMin = responseMessage.getBlockNumberMin();
         long sessionId = responseMessage.getSessionId();
-        /** 向slave节点发送创建块的消息 **/
+
         List<SlaveServer> list = responseMessage.getSlaveServerList();
         int slaveNumber = list.size();
 
@@ -67,7 +58,7 @@ public class CreateBlockMasterResponseProcessor
             SocketChannel channel = ClientSocketChannelCache.getSocketChannel(id);
             channel.writeAndFlush(new CreateBlockToSlaveRequest(blockCount, blockNumberMin, sessionId));
         }
-        /** 自己创建块 **/
+
         // TODO 选择块
         List<String> pathList = TotalBlockInfoCache.selectFreeBlockPathList((int) blockCount);
         long blockNumber = blockNumberMin;
@@ -86,7 +77,7 @@ public class CreateBlockMasterResponseProcessor
         }
         SessionCache.addSuccess(sessionId);
 
-        /** 等待slave操作结果 **/
+
         boolean result = true;
         while (!SessionCache.isSuccess(sessionId, slaveNumber + 1)) {
             if (SessionCache.isFailure(sessionId)) {
@@ -96,7 +87,7 @@ public class CreateBlockMasterResponseProcessor
             }
         }
 
-        /** 返回给name server结果 **/
+
         CreateBlockMasterResultRequestMessage CreateBlockResultMasterRequest = null;
         List<Integer> dataserverList = new ArrayList<Integer>();
         dataserverList.add(Global.PORT);

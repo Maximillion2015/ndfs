@@ -1,15 +1,7 @@
 
-/*
- * Copyright (c) 2016 Sohu. All Rights Reserved
- */
+
 package org.ndfs.core;
-/**
- * <p>
- *     Description: 测试declaredMethod方法
- * </p>
- * @author yibingsong
- * @Date 2016年7月21日 下午12:42:28
- */
+
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

@@ -1,17 +1,8 @@
 
-/*
- * Copyright (c) 2016 Sohu. All Rights Reserved
- */
+
 package ndfs.core.common.message;
 
-/**
- * <p>
- * Description: master向slave发送创建块的请求
- * </p>
- * 
- * @author yibingsong
- * @Date 2016年7月27日 下午5:01:01
- */
+
 public class CreateBlockToSlaveRequest extends RequestMessage {
     private long blockCount;
 

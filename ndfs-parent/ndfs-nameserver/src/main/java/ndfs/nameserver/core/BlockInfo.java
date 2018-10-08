@@ -1,7 +1,5 @@
 
-/*
- * Copyright (c) 2016 Sohu. All Rights Reserved
- */
+
 package ndfs.nameserver.core;
 
 import java.io.FileNotFoundException;
@@ -20,13 +18,7 @@ import ndfs.core.common.ToString;
 
 import static ndfs.core.common.StatusCodeEnum.*;
 
-/**
- * <p>
- *     Description: 
- * </p>
- * @author yibingsong
- * @Date 2016年7月19日 上午11:00:23
- */
+
 public class BlockInfo extends ToString{
     
     public static BlockInfo newBlock(long id,   List<Integer> dataserverList) {

@@ -1,15 +1,7 @@
 
-/*
- * Copyright (c) 2016 Sohu. All Rights Reserved
- */
+
 package ndfs.core.common.message;
-/**
- * <p>
- *     Description: 
- * </p>
- * @author yibingsong
- * @Date 2016年7月19日 下午8:06:11
- */
+
 public class HeartRequestMessage extends RequestMessage{
 
     private static final long serialVersionUID = 1L;

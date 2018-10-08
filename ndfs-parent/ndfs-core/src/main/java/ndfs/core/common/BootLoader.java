@@ -1,7 +1,5 @@
 
-/*
- * Copyright (c) 2016 Sohu. All Rights Reserved
- */
+
 package ndfs.core.common;
 
 import java.io.FileInputStream;
@@ -17,14 +15,7 @@ import ndfs.core.common.message.CommonMessage;
 import ndfs.core.utils.LogUtils;
 import ndfs.core.utils.Logger;
 
-/**
- * <p>
- * Description: 启动时初始化的数据
- * </p>
- * 
- * @author yibingsong
- * @Date 2016年7月20日 下午3:41:05
- */
+
 public class BootLoader {
     
 

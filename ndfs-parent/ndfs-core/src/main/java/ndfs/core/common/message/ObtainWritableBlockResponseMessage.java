@@ -1,17 +1,8 @@
 
-/*
- * Copyright (c) 2016 Sohu. All Rights Reserved
- */
+
 package ndfs.core.common.message;
 
-/**
- * <p>
- * Description: client上传文件时，name server返回的block id消息
- * </p>
- * 
- * @author yibingsong
- * @Date 2016年7月26日 下午2:39:05
- */
+
 public class ObtainWritableBlockResponseMessage extends ResponseMessage {
 
     @Override

@@ -1,7 +1,5 @@
 
-/*
- * Copyright (c) 2016 Sohu. All Rights Reserved
- */
+
 package ndfs.nameserver.event;
 
 import java.util.ArrayList;
@@ -20,14 +18,7 @@ import ndfs.nameserver.cache.ServerManager.ServerInfo;
 import ndfs.nameserver.core.Global;
 import ndfs.nameserver.core.Statistics;
 
-/**
- * <p>
- * Description: 时间监听器
- * </p>
- * 
- * @author yibingsong
- * @Date 2016年7月27日 下午1:02:29
- */
+
 public class EventListerner {
     // 每次创建的block数目
     private static final String keyForCreateBlockCount = "createBlock.count";

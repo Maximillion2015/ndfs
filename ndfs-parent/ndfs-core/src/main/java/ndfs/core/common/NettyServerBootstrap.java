@@ -1,7 +1,5 @@
 
-/*
- * Copyright (c) 2016 Sohu. All Rights Reserved
- */
+
 package ndfs.core.common;
 
 
@@ -23,14 +21,7 @@ import ndfs.core.common.message.CommonMessage;
 import ndfs.core.utils.LogUtils;
 import ndfs.core.utils.Logger;
 
-/**
- * <p>
- * Description:
- * </p>
- * 
- * @author yibingsong
- * @Date 2016年7月19日 上午11:41:22
- */
+
 public class NettyServerBootstrap {
     private int port;
     private String logInfo;

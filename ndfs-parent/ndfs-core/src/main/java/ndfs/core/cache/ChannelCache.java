@@ -1,25 +1,11 @@
 
-/*
- * Copyright (c) 2016 Sohu. All Rights Reserved
- */
 package ndfs.core.cache;
-
-
-
-
 
 
 import io.netty.channel.socket.SocketChannel;
 import ndfs.core.utils.LogUtils;
 import ndfs.core.utils.Logger;
 
-/**
- * <p>
- *     Description: server端存放netty channel的缓存
- * </p>
- * @author yibingsong
- * @Date 2016年7月19日 上午11:31:42
- */
 public class ChannelCache {
     
     private static Logger logger = LogUtils.getLogger(ChannelCache.class);

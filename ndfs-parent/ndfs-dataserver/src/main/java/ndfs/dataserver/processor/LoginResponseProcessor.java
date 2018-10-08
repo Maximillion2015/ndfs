@@ -1,7 +1,5 @@
 
-/*
- * Copyright (c) 2016 Sohu. All Rights Reserved
- */
+
 package ndfs.dataserver.processor;
 
 import io.netty.channel.ChannelHandlerContext;
@@ -12,14 +10,7 @@ import ndfs.core.common.message.RequestMessage;
 import ndfs.core.utils.LogUtils;
 import ndfs.core.utils.Logger;
 
-/**
- * <p>
- * Description: 登录的回应消息
- * </p>
- * 
- * @author yibingsong
- * @Date 2016年7月20日 下午2:14:38
- */
+
 @Processor(msgType = MsgTypeEnum.LOGIN_RESPONSE)
 public class LoginResponseProcessor extends ResponseMessageProcessor<LoginResponseMessage, RequestMessage> {
 

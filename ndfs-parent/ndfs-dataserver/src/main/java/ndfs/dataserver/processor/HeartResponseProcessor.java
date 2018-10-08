@@ -1,7 +1,5 @@
 
-/*
- * Copyright (c) 2016 Sohu. All Rights Reserved
- */
+
 package ndfs.dataserver.processor;
 
 
@@ -16,14 +14,7 @@ import ndfs.core.utils.Logger;
 import ndfs.dataserver.UsedBlockInfoCache;
 import ndfs.dataserver.WritableBlockInfoCache;
 import ndfs.dataserver.model.BlockInfo;
-/**
- * <p>
- * Description: 心跳回应处理器
- * </p>
- * 
- * @author yibingsong
- * @Date 2016年7月20日 下午12:59:52
- */
+
 @Processor(msgType = MsgTypeEnum.HEARTBEAT_RESPONSE)
 public class HeartResponseProcessor extends ResponseMessageProcessor<HeartResponseMessage, RequestMessage> {
 

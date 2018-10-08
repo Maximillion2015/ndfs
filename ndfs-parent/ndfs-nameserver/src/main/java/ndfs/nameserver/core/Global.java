@@ -1,7 +1,5 @@
 
-/*
- * Copyright (c) 2016 Sohu. All Rights Reserved
- */
+
 package ndfs.nameserver.core;
 
 import java.util.concurrent.atomic.AtomicBoolean;
@@ -12,13 +10,7 @@ import com.google.common.eventbus.EventBus;
 
 import ndfs.nameserver.event.EventListerner;
 
-/**
- * <p>
- *     Description: 全局变量
- * </p>
- * @author yibingsong
- * @Date 2016年7月27日 下午1:53:02
- */
+
 public class Global {
     // 事件总线，参考google guava eventBus
     public static final EventBus eventBus = initialEventBus();

@@ -1,7 +1,5 @@
 
-/*
- * Copyright (c) 2016 Sohu. All Rights Reserved
- */
+
 package ndfs.dataserver;
 
 import io.netty.channel.socket.SocketChannel;
@@ -9,13 +7,7 @@ import ndfs.core.cache.CacheBuilder;
 import ndfs.core.cache.LocalCache;
 import ndfs.dataserver.model.BlockInfo;
 
-/**
- * <p>
- *     Description: 存放连接到其他data server的socket channel
- * </p>
- * @author yibingsong
- * @Date 2016年7月27日 下午4:42:06
- */
+
 public class ClientSocketChannelCache {
 public static final LocalCache<Integer, SocketChannel> INSTANCE = getInstance();
     

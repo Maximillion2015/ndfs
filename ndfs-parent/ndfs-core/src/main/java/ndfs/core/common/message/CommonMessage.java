@@ -1,18 +1,8 @@
 
-/*
- * Copyright (c) 2016 Sohu. All Rights Reserved
- */
 package ndfs.core.common.message;
 
 import java.io.Serializable;
 
-/**
- * <p>
- *     Description: 
- * </p>
- * @author yibingsong
- * @Date 2016年7月19日 下午7:49:50
- */
 public abstract class CommonMessage implements Serializable{
         
     protected static final long serialVersionUID = 2243859217859238868L;

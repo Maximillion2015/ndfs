@@ -1,7 +1,4 @@
 
-/*
- * Copyright (c) 2016 Sohu. All Rights Reserved
- */
 package ndfs.core.cache;
 
 import java.util.Map;
@@ -14,15 +11,6 @@ import com.google.common.cache.CacheLoader;
 import ndfs.core.cache.exception.CommonException;
 import ndfs.core.common.StatusCodeEnum;
 
-/**
- * <p>
- * Description:
- * 用于构造支持并发的缓存，共有两种缓存实现。一是基于guava缓存，功能较多。而是ConcurrentHashMap，可能速度较快。
- * </p>
- * 
- * @author yibingsong
- * @Date 2016年7月18日 下午2:45:33
- */
 public abstract class CacheBuilder<K, V> {
     public static Class DEFAULT_CACHE_BUILDER_TYPE = GuavaCacheBuilder.class;
     public static Class GUAVA_CACHE_BUILDER_TYPE = GuavaCacheBuilder.class;
@@ -153,9 +141,7 @@ class MapCacheBuilder<K, V> extends CacheBuilder<K, V> {
 
         ConcurrentHashMap<K, V> map = null;
 
-        /**
-         * key 或者 vlaue 为空时，抛出空指针错误
-         */
+
         @Override
         public void put(K key, V value) {
             map.put(key, value);

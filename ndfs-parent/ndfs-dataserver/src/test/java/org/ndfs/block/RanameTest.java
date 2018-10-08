@@ -1,7 +1,5 @@
 
-/*
- * Copyright (c) 2016 Sohu. All Rights Reserved
- */
+
 package org.ndfs.block;
 
 import java.io.File;
@@ -14,13 +12,7 @@ import javax.swing.text.AbstractDocument.LeafElement;
 
 import junit.framework.TestCase;
 
-/**
- * <p>
- *     Description: 
- * </p>
- * @author yibingsong
- * @Date 2016年7月28日 下午1:33:41
- */
+
 public class RanameTest extends TestCase{
     public void testRename() throws FileNotFoundException {
 //        File file2 = new File("D:\\C.1");

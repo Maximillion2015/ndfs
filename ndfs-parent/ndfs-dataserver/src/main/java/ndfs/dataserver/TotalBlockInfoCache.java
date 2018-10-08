@@ -1,7 +1,5 @@
 
-/*
- * Copyright (c) 2016 Sohu. All Rights Reserved
- */
+
 package ndfs.dataserver;
 
 import java.util.ArrayList;
@@ -12,14 +10,7 @@ import java.util.Set;
 import ndfs.core.cache.exception.CommonException;
 import ndfs.core.common.StatusCodeEnum;
 
-/**
- * <p>
- * Description: 所有的块，包括未被初始化的块
- * </p>
- * 
- * @author yibingsong
- * @Date 2016年7月26日 下午4:44:57
- */
+
 public class TotalBlockInfoCache {
 
     private static Set<TotalBlockInfo> totalBlockInfoCache = new HashSet<TotalBlockInfo>();

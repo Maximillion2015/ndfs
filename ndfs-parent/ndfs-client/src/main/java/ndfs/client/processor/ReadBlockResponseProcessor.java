@@ -1,7 +1,4 @@
 
-/*
- * Copyright (c) 2016 Sohu. All Rights Reserved
- */
 package ndfs.client.processor;
 
 import java.io.BufferedOutputStream;
@@ -19,15 +16,6 @@ import ndfs.core.common.message.ReadBlockResponseMessage;
 import ndfs.core.common.message.RequestMessage;
 import ndfs.core.utils.LogUtils;
 import ndfs.core.utils.Logger;
-
-/**
- * <p>
- * Description:
- * </p>
- * 
- * @author yibingsong
- * @Date 2016年8月2日 上午10:46:50
- */
 @Processor(msgType = MsgTypeEnum.READ_BLOCK_RESPONSE)
 public class ReadBlockResponseProcessor extends ResponseMessageProcessor<ReadBlockResponseMessage, RequestMessage> {
     private static final Logger logger = LogUtils.getLogger(NettyServerBootstrap.class);

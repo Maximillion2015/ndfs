@@ -1,7 +1,4 @@
 
-/*
- * Copyright (c) 2016 Sohu. All Rights Reserved
- */
 package ndfs.client.processor;
 
 import java.io.ByteArrayOutputStream;
@@ -21,14 +18,6 @@ import ndfs.core.common.message.ObtainWritableBlockResponseMessage;
 import ndfs.core.common.message.RequestMessage;
 import ndfs.core.common.message.WriteBlockRequestMessage;
 
-/**
- * <p>
- * Description: 处理从name server获取的block id消息。向data server写入文件
- * </p>
- * 
- * @author yibingsong
- * @Date 2016年7月26日 下午2:35:24
- */
 @Processor(msgType = MsgTypeEnum.OBTAIN_WRITABLE_BLOCK_RESPONSE)
 public class ObtainWritableBlockResponseProcessor extends ResponseMessageProcessor<ObtainWritableBlockResponseMessage, RequestMessage> {
 

@@ -1,7 +1,5 @@
 
-/*
- * Copyright (c) 2016 Sohu. All Rights Reserved
- */
+
 package ndfs.dataserver.model;
 
 import static ndfs.core.common.StatusCodeEnum.FILE_OPEN_ERROR;
@@ -12,13 +10,7 @@ import java.io.RandomAccessFile;
 
 import ndfs.core.cache.exception.CommonException;
 
-/**
- * <p>
- *     Description: 
- * </p>
- * @author yibingsong
- * @Date 2016年7月19日 上午11:00:23
- */
+
 public class BlockInfo {
     
     //块的唯一id

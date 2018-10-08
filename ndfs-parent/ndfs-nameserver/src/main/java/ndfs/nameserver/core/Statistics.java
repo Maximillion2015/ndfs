@@ -1,16 +1,8 @@
 
-/*
- * Copyright (c) 2016 Sohu. All Rights Reserved
- */
+
 package ndfs.nameserver.core;
 
-/**
- * <p>
- *     Description: 
- * </p>
- * @author yibingsong
- * @Date 2016年7月20日 下午6:13:28
- */
+
 @SuppressWarnings("restriction")
 public class Statistics {
     
@@ -43,13 +35,7 @@ public class Statistics {
         }
     }
 
-    /**
-     * Returns a sun.misc.Unsafe.  Suitable for use in a 3rd party package.
-     * Replace with a simple call to Unsafe.getUnsafe when integrating
-     * into a jdk.
-     *
-     * @return a sun.misc.Unsafe
-     */
+
     @SuppressWarnings("restriction")
     private static sun.misc.Unsafe getUnsafe() {
         try {

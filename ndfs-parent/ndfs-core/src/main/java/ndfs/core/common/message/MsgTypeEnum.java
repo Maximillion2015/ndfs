@@ -1,7 +1,5 @@
 
-/*
- * Copyright (c) 2016 Sohu. All Rights Reserved
- */
+
 package ndfs.core.common.message;
 
 import java.util.HashMap;
@@ -11,20 +9,13 @@ import ndfs.core.common.StatusCodeEnum;
 import ndfs.core.utils.LogUtils;
 import ndfs.core.utils.Logger;
 
-/**
- * <p>
- * Description:
- * </p>
- * 
- * @author yibingsong
- * @Date 2016年7月19日 下午7:39:46
- */
+
 public enum MsgTypeEnum {
     
     
     NULL(-1, "避免空指针"),
     
-    /*********************data server发送的消息******************/
+
     HEARTBEAT_REQUST(1001, "data server发送的心跳消息"),
     
     LOGIN_REQUEST(1002, "data server发送的登录请求"),
@@ -36,7 +27,7 @@ public enum MsgTypeEnum {
     READ_BLOCK_RESPONSE(1005, "data server返回的文件数据"),
     
     
-    /*********************name server发送的消息******************/
+
     HEARTBEAT_RESPONSE(2001, "name server回应的心跳消息"),
     
     LOGIN_RESPONSE(2002, "name server回应的登录请求"),
@@ -50,7 +41,7 @@ public enum MsgTypeEnum {
     
     
     
-    /*********************client发送的消息******************/
+
     OBTAIN_WRITABLE_BLOCK_REQUEST(3001, "client上传文件时，向name server获取block id的消息"),
     
     WRITE_BLOCK_REQUEST(3002, "写入block的请求"),

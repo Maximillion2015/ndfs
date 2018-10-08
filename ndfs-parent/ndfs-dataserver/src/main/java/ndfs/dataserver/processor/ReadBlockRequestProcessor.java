@@ -1,7 +1,5 @@
 
-/*
- * Copyright (c) 2016 Sohu. All Rights Reserved
- */
+
 package ndfs.dataserver.processor;
 
 import java.io.IOException;
@@ -20,14 +18,7 @@ import ndfs.dataserver.UsedBlockInfoCache;
 import ndfs.dataserver.model.BlockInfo;
 import ndfs.dataserver.model.FileInfo;
 
-/**
- * <p>
- * Description:
- * </p>
- * 
- * @author yibingsong
- * @Date 2016年8月2日 上午10:24:03
- */
+
 @Processor(msgType = MsgTypeEnum.READ_BLOCK_REQUEST)
 public class ReadBlockRequestProcessor
         extends RequestMessageProcessor<ReadBlockRequestMessage, ReadBlockResponseMessage> {

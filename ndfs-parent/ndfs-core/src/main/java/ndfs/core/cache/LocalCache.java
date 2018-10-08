@@ -1,17 +1,6 @@
 
-/*
- * Copyright (c) 2016 Sohu. All Rights Reserved
- */
 package ndfs.core.cache;
 
-/**
- * <p>
- * Description: 缓存接口
- * </p>
- * 
- * @author yibingsong
- * @Date 2016年7月18日 下午3:11:37
- */
 public interface LocalCache<K, V> {
     
     public void put(K key, V value);

@@ -1,21 +1,10 @@
 
-/*
- * Copyright (c) 2016 Sohu. All Rights Reserved
- */
 package ndfs.core.cache.exception;
 
 import org.apache.commons.lang3.StringUtils;
 
 import ndfs.core.common.StatusCodeEnum;
 
-/**
- * <p>
- * Description:缓存异常类
- * </p>
- * 
- * @author yibingsong
- * @Date 2016年7月18日 下午3:30:47
- */
 @SuppressWarnings("serial")
 public class CommonException extends RuntimeException {
     // 结果码
@@ -39,9 +28,7 @@ public class CommonException extends RuntimeException {
         this.errorMsg = errorMsg;
     }
 
-    /**
-     * 重写getMessage，附带结果枚举的信息
-     */
+
     @Override
     public String getMessage() {
         StringBuilder sb = new StringBuilder(200);

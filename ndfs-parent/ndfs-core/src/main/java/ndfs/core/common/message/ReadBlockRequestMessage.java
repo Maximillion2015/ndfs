@@ -1,18 +1,10 @@
 
-/*
- * Copyright (c) 2016 Sohu. All Rights Reserved
- */
+
 package ndfs.core.common.message;
 
 import ndfs.core.utils.LogUtils;
 
-/**
- * <p>
- *     Description: 从block读文件的请求消息
- * </p>
- * @author yibingsong
- * @Date 2016年8月2日 上午10:18:13
- */
+
 public class ReadBlockRequestMessage extends RequestMessage{
     @Override
     protected void initialize() {
