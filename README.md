@@ -16,8 +16,3 @@
 
   读取文件：运行ndfs.client.netty.MainClass的read方法，以文件URL地址为参数，该方法会将读取到的文件存放在D盘下的new.jpg中。
 
-
-##实现原理 
-
-![image](https://github.com/songyibing/ndfs/blob/master/im.png)
-

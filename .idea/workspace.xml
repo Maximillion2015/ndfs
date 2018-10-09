@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="970192b4-7b89-458a-a003-bfb043605054" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/ndfs-parent/ndfs-client/src/main/java/ndfs/client/cache/UuidContent.java" afterPath="$PROJECT_DIR$/ndfs-parent/ndfs-client/src/main/java/ndfs/client/cache/UuidContent.java" />
-      <change beforePath="$PROJECT_DIR$/ndfs-parent/ndfs-client/src/main/java/ndfs/client/netty/MainClass.java" afterPath="$PROJECT_DIR$/ndfs-parent/ndfs-client/src/main/java/ndfs/client/netty/MainClass.java" />
-      <change beforePath="$PROJECT_DIR$/ndfs-parent/ndfs-client/src/main/java/ndfs/client/netty/NettyClientBootstrap.java" afterPath="$PROJECT_DIR$/ndfs-parent/ndfs-client/src/main/java/ndfs/client/netty/NettyClientBootstrap.java" />
-      <change beforePath="$PROJECT_DIR$/ndfs-parent/ndfs-client/src/main/java/ndfs/client/netty/NettyClientHandler.java" afterPath="$PROJECT_DIR$/ndfs-parent/ndfs-client/src/main/java/ndfs/client/netty/NettyClientHandler.java" />
-      <change beforePath="$PROJECT_DIR$/ndfs-parent/ndfs-client/src/main/java/ndfs/client/processor/ObtainReadableServerResponseProcessor.java" afterPath="$PROJECT_DIR$/ndfs-parent/ndfs-client/src/main/java/ndfs/client/processor/ObtainReadableServerResponseProcessor.java" />
-      <change beforePath="$PROJECT_DIR$/ndfs-parent/ndfs-client/src/main/java/ndfs/client/processor/ObtainWritableBlockResponseProcessor.java" afterPath="$PROJECT_DIR$/ndfs-parent/ndfs-client/src/main/java/ndfs/client/processor/ObtainWritableBlockResponseProcessor.java" />
-      <change beforePath="$PROJECT_DIR$/ndfs-parent/ndfs-client/src/main/java/ndfs/client/processor/ReadBlockResponseProcessor.java" afterPath="$PROJECT_DIR$/ndfs-parent/ndfs-client/src/main/java/ndfs/client/processor/ReadBlockResponseProcessor.java" />
-      <change beforePath="$PROJECT_DIR$/ndfs-parent/ndfs-client/src/main/java/ndfs/client/processor/ResponseMessageProcessor.java" afterPath="$PROJECT_DIR$/ndfs-parent/ndfs-client/src/main/java/ndfs/client/processor/ResponseMessageProcessor.java" />
-      <change beforePath="$PROJECT_DIR$/ndfs-parent/ndfs-client/src/main/java/ndfs/client/processor/WriteBlockResponseProcessor.java" afterPath="$PROJECT_DIR$/ndfs-parent/ndfs-client/src/main/java/ndfs/client/processor/WriteBlockResponseProcessor.java" />
-      <change beforePath="$PROJECT_DIR$/ndfs-parent/ndfs-core/src/main/java/ndfs/core/annotation/Processor.java" afterPath="$PROJECT_DIR$/ndfs-parent/ndfs-core/src/main/java/ndfs/core/annotation/Processor.java" />
-      <change beforePath="$PROJECT_DIR$/ndfs-parent/ndfs-core/src/main/java/ndfs/core/cache/CacheBuilder.java" afterPath="$PROJECT_DIR$/ndfs-parent/ndfs-core/src/main/java/ndfs/core/cache/CacheBuilder.java" />
-      <change beforePath="$PROJECT_DIR$/ndfs-parent/ndfs-core/src/main/java/ndfs/core/cache/ChannelCache.java" afterPath="$PROJECT_DIR$/ndfs-parent/ndfs-core/src/main/java/ndfs/core/cache/ChannelCache.java" />
-      <change beforePath="$PROJECT_DIR$/ndfs-parent/ndfs-core/src/main/java/ndfs/core/cache/LocalCache.java" afterPath="$PROJECT_DIR$/ndfs-parent/ndfs-core/src/main/java/ndfs/core/cache/LocalCache.java" />
-      <change beforePath="$PROJECT_DIR$/ndfs-parent/ndfs-core/src/main/java/ndfs/core/cache/exception/CommonException.java" afterPath="$PROJECT_DIR$/ndfs-parent/ndfs-core/src/main/java/ndfs/core/cache/exception/CommonException.java" />
-      <change beforePath="$PROJECT_DIR$/ndfs-parent/ndfs-core/src/main/java/ndfs/core/common/message/CommonMessage.java" afterPath="$PROJECT_DIR$/ndfs-parent/ndfs-core/src/main/java/ndfs/core/common/message/CommonMessage.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,86 +13,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="WriteBlockResponseProcessor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ndfs-parent/ndfs-client/src/main/java/ndfs/client/processor/WriteBlockResponseProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReadBlockResponseProcessor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ndfs-parent/ndfs-client/src/main/java/ndfs/client/processor/ReadBlockResponseProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ndfs-parent/ndfs-client/src/test/java/ndfs/client/AppTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ndfs-parent/ndfs-client/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Processor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ndfs-parent/ndfs-core/src/main/java/ndfs/core/annotation/Processor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommonException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ndfs-parent/ndfs-core/src/main/java/ndfs/core/cache/exception/CommonException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CacheBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ndfs-parent/ndfs-core/src/main/java/ndfs/core/cache/CacheBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChannelCache.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ndfs-parent/ndfs-core/src/main/java/ndfs/core/cache/ChannelCache.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LocalCache.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ndfs-parent/ndfs-core/src/main/java/ndfs/core/cache/LocalCache.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -118,17 +23,111 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommonMessage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CommonMessage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ndfs-parent/ndfs-core/src/main/java/ndfs/core/common/message/CommonMessage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
-              <caret line="27" column="4" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="27" selection-end-column="4" />
+              <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ToString.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ndfs-parent/ndfs-core/src/main/java/ndfs/core/common/ToString.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NettyServerBootstrap.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ndfs-parent/ndfs-core/src/main/java/ndfs/core/common/NettyServerBootstrap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NettyClientBootstrap.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ndfs-parent/ndfs-core/src/main/java/ndfs/core/common/NettyClientBootstrap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageProcessor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ndfs-parent/ndfs-core/src/main/java/ndfs/core/common/MessageProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NettyClientHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ndfs-parent/ndfs-dataserver/src/main/java/ndfs/data/netty/client/NettyClientHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlockInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ndfs-parent/ndfs-dataserver/src/main/java/ndfs/dataserver/model/BlockInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1470">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ndfs-parent/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="414">
+                <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>(/\*([^*]|[\r\n]|(\*+([^*/]|[\r\n])))*\*+/)</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -298,6 +297,92 @@
               <item name="ndfs-dataserver" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ndfs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ndfs" type="462c0819:PsiDirectoryNode" />
+              <item name="ndfs-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ndfs-dataserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ndfs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ndfs" type="462c0819:PsiDirectoryNode" />
+              <item name="ndfs-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ndfs-dataserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ndfs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ndfs" type="462c0819:PsiDirectoryNode" />
+              <item name="ndfs-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ndfs-dataserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ndfs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ndfs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ndfs" type="462c0819:PsiDirectoryNode" />
+              <item name="ndfs-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ndfs-dataserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ndfs" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ndfs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ndfs" type="462c0819:PsiDirectoryNode" />
+              <item name="ndfs-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ndfs-dataserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ndfs" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ndfs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ndfs" type="462c0819:PsiDirectoryNode" />
+              <item name="ndfs-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ndfs-dataserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ndfs" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ndfs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ndfs" type="462c0819:PsiDirectoryNode" />
+              <item name="ndfs-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ndfs-dataserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ndfs" type="462c0819:PsiDirectoryNode" />
+              <item name="dataserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ndfs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ndfs" type="462c0819:PsiDirectoryNode" />
+              <item name="ndfs-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ndfs-dataserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ndfs" type="462c0819:PsiDirectoryNode" />
+              <item name="dataserver" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -418,15 +503,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1539005199916</updated>
-      <workItem from="1539005203490" duration="444000" />
+      <workItem from="1539005203490" duration="595000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="444000" />
+    <option name="totallyTimeSpent" value="595000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-227" y="-1057" width="1920" height="1057" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -437,7 +523,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -471,17 +557,6 @@
     <entry file="file://$PROJECT_DIR$/im.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="414">
-            <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ndfs-parent/ndfs-client/src/main/java/ndfs/client/netty/MainClass.java">
@@ -560,7 +635,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1539005726367" expanded="true" signature="119:119" ph="/**...*/" />
+            <marker date="1539005726367" expanded="true" signature="169:170" ph="/**...*/" />
+            <marker date="1539005726367" expanded="true" signature="248:249" ph="/**...*/" />
+            <marker date="1539005726367" expanded="true" signature="340:341" ph="/**...*/" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -584,7 +664,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-          <folding />
+          <folding>
+            <marker date="1539005726288" expanded="true" signature="839:840" ph="/**...*/" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -592,7 +674,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-          <folding />
+          <folding>
+            <marker date="1539005726481" expanded="true" signature="4204:4205" ph="/**...*/" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -615,8 +699,78 @@
     <entry file="file://$PROJECT_DIR$/ndfs-parent/ndfs-core/src/main/java/ndfs/core/common/message/CommonMessage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
-          <caret line="27" column="4" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="27" selection-end-column="4" />
+          <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ndfs-parent/ndfs-core/src/main/java/ndfs/core/common/ToString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ndfs-parent/ndfs-core/src/main/java/ndfs/core/common/NettyServerBootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ndfs-parent/ndfs-core/src/main/java/ndfs/core/common/NettyClientBootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ndfs-parent/ndfs-core/src/main/java/ndfs/core/common/MessageProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ndfs-parent/ndfs-dataserver/src/main/java/ndfs/data/netty/client/NettyClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ndfs-parent/ndfs-dataserver/src/main/java/ndfs/dataserver/model/BlockInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1470">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ndfs-parent/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="414">
+            <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
